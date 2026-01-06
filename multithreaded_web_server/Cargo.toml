@@ -1,0 +1,14 @@
+[package]
+name = "multithreaded-web-server"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+name = "thread_pool"
+path = "src/lib.rs"
+
+[[bin]]
+name = "multithreaded-web-server"
+path = "src/bin/main.rs"
+
+[dependencies]
